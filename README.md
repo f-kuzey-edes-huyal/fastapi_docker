@@ -23,12 +23,12 @@ After running the ```code .``` command, we will be inside Visual Studio Code. We
 
 ```pip install fastapi'''
 
-'''python -m pip install -upgrade pip```
+```python -m pip install -upgrade pip```
 
-'''pip install "uvicorn[standard]" ```
+```pip install "uvicorn[standard]" ```
 
 
-Navigate to the fastapi-project folder and create ```main.py``` files and ```models.py```.
+Navigate to the fastapi-docker folder and create ```[main.py](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/main.py)``` files and ```[models.py(https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/main.py)```.
 
 * [__Dockerfile__](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/Dockerfile): Used to create Docker images.
 * [__.dockerignore__](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/.dockerignore): Specifies files to be ignored when creating a Docker image.

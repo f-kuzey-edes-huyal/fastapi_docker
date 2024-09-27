@@ -46,4 +46,8 @@ Additionally, create an empty ```requirements.txt``` file in the folder, and the
 
 ```pip freeze > requirements.txt```
 
+Write the code below to run the Docker containers.
+
 ```docker compose up –build```
+
+You will see your Todo App interface when you navigate to the link [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).

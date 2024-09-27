@@ -28,10 +28,22 @@ After running the ```code .``` command, we will be inside Visual Studio Code. We
 ```pip install "uvicorn[standard]"```
 
 
+
+
 Navigate to the fastapi-docker folder and create [```main.py```](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/main.py) files and [```models.py```](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/models.py).
+
+Run the following command and check if it works.
+
+```uvicorn main:app --reload``` 
+
+If it works, stop the terminal by pressing ```CTRL + C```. Then, navigate to the folder and create the three files listed below.
 
 * [__Dockerfile__](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/Dockerfile): Used to create Docker images.
 * [__.dockerignore__](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/.dockerignore): Specifies files to be ignored when creating a Docker image.
 * [__docker-compose.yaml__](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/docker-compose.yaml): Used to run Docker images as containers.
 
+Additionally, create an empty ```requirements.txt``` file in the folder, and then write the following code inside it.
 
+```pip freeze > requirements.txt```
+
+```docker compose up –build```

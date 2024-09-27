@@ -11,7 +11,7 @@ For detailed explanations of these command lines, please refer to my previous [r
 
 ```mkdir fastapi-docker```
 
-```cd fastapi-project```
+```cd fastapi-docker```
 
 ```python -m venv venv```
 
@@ -45,6 +45,8 @@ If it works, stop the terminal by pressing ```CTRL + C```. Then, navigate to the
 Additionally, create an empty ```requirements.txt``` file in the folder, and then write the following code.
 
 ```pip freeze > requirements.txt```
+
+
 
 Write the code below to run the Docker containers.
 

@@ -42,7 +42,7 @@ If it works, stop the terminal by pressing ```CTRL + C```. Then, navigate to the
 * [__.dockerignore__](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/.dockerignore): Specifies files to be ignored when creating a Docker image.
 * [__docker-compose.yaml__](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/docker-compose.yaml): Used to run Docker images as containers.
 
-Additionally, create an empty ```requirements.txt``` file in the folder, and then write the following code inside it.
+Additionally, create an empty ```requirements.txt``` file in the folder, and then write the following code.
 
 ```pip freeze > requirements.txt```
 

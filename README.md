@@ -21,11 +21,11 @@ After running the ```code .``` command, we will be inside Visual Studio Code. We
 
 ```.venv/Scripts/activate```
 
-```pip install fastapi'''
+```pip install fastapi```
 
 ```python -m pip install -upgrade pip```
 
-```pip install "uvicorn[standard]" ```
+```pip install "uvicorn[standard]"```
 
 
 Navigate to the fastapi-docker folder and create ```[main.py](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/main.py)``` files and ```[models.py(https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/main.py)```.

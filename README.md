@@ -15,8 +15,20 @@ For detailed explanations of these command lines, please refer to my previous [r
 
 ```python -m venv venv```
 
-'''code .'''
+```code .```
 
+After running the ```code .``` command, we will be inside Visual Studio Code. We will run the following code in the Visual Studio Code terminal.
+
+```.venv/Scripts/activate```
+
+```pip install fastapi'''
+
+'''python -m pip install -upgrade pip```
+
+'''pip install "uvicorn[standard]"```
+
+
+Navigate to the fastapi-project folder and create ```main.py``` files and ```models.py```.
 
 * [__Dockerfile__](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/Dockerfile): Used to create Docker images.
 * [__.dockerignore__](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/.dockerignore): Specifies files to be ignored when creating a Docker image.

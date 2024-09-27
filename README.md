@@ -25,7 +25,7 @@ After running the ```code .``` command, we will be inside Visual Studio Code. We
 
 '''python -m pip install -upgrade pip```
 
-'''pip install "uvicorn[standard]"```
+'''pip install "uvicorn[standard]" ```
 
 
 Navigate to the fastapi-project folder and create ```main.py``` files and ```models.py```.

@@ -39,9 +39,8 @@ Run the following command and check if it works.
 
 If it’s running, you will see the Todo App's interface at http://127.0.0.1:8000/docs when you search for it in your web browser. 
 
-<img src="https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/fastapi_img.png?raw=true" width="48">
+<img src="https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/fastapi_img.png?raw=true" width="200">
 
-![myimage-alt-tag]([url-to-image](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/fastapi_img.png?raw=true)) 
 
 If it works, stop the terminal by pressing ```CTRL + C```. Then, navigate to the folder and create the three files listed below.
 

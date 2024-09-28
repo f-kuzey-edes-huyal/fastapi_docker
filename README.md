@@ -1,5 +1,6 @@
 # fastapi_docker
-Todo App with Docker Containers
+
+### Todo App with Docker Containers
 
 My goal is to run the FastAPI project, which I created as a Todo App, on Docker containers. I followed and modified the steps outlined in the blog linked [here](https://dev.to/rajeshj3/dockerize-fastapi-project-like-a-pro-step-by-step-tutorial-7i8).
 
@@ -35,6 +36,12 @@ Navigate to the fastapi-docker folder and create [```main.py```](https://github.
 Run the following command and check if it works.
 
 ```uvicorn main:app --reload``` 
+
+If it’s running, you will see the Todo App's interface at http://127.0.0.1:8000/docs when you search for it in your web browser. 
+
+<img src="https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/fastapi_img.png?raw=true" width="48">
+
+![myimage-alt-tag]([url-to-image](https://github.com/f-kuzey-edes-huyal/fastapi_docker/blob/main/fastapi_img.png?raw=true)) 
 
 If it works, stop the terminal by pressing ```CTRL + C```. Then, navigate to the folder and create the three files listed below.
 
